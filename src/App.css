@@ -11,6 +11,11 @@
     font-size: 85px;
     color: #fff;
     animation: flipTitle 1s;
+    /* applying a gradient effect with two colors */
+    background: linear-gradient(to top, yellow, rgb(9, 131, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 @keyframes flipTitle {
@@ -52,7 +57,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: transform 0.5s;
+    transition: transform 2s;
 }
 
 .buttonSearch:hover {
@@ -64,7 +69,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #ececec;
     width: 500px;
     border-radius: 8px;
 }
@@ -75,7 +80,7 @@
 }
 
 .main span {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
