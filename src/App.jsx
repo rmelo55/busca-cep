@@ -9,7 +9,7 @@ function App() {
 
   async function handleSearch() {
     
-    if(input == '') {
+    if(input === '') {
       alert('Digite algum cep')
       return
     }
