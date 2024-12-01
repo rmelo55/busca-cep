@@ -19,7 +19,7 @@ function App() {
       setCep(response.data)
       setInput('')
     }catch{
-      alert('Oops!! Erro ao buscar')
+      alert('Erro ao buscar!!')
       setInput('')
     }
 
